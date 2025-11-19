@@ -181,6 +181,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
  
 
 ## STM 32 CUBE PROGRAM :
+```
 #include "main.h"
 #include "lcd.h"
 #include <stdbool.h>
@@ -327,6 +328,7 @@ static void MX_GPIO_Init(void)
     GPIO_InitStruct.Pin = GPIO_PIN_0|GPIO_PIN_1;
     HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 }
+```
 
 
 ## Output screen shots of proteus  :
